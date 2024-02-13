@@ -1,0 +1,43 @@
+body{
+    background-color: #D3D4D3;
+}
+#contenedor{
+    display: flex;
+}
+.caja{
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin: 1.5%;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+}
+.titulo{
+    display: flex;
+    color: #22C3E6;
+    font-size: 27px;
+    align-items: center;
+}
+.titulo img{
+    width: 40px;
+    height: 40px;
+}
+hr{
+    flex-grow: 1;
+    border-top: solid #22C3E6; 
+    margin: -20px;  
+}
+.texto{
+    margin: -20px auto 20px -30px;
+    color: dimgray;
+    font-size: 20px;
+}
+.texto ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.texto img{
+    width: 200px;
+    height: 50px;
+}

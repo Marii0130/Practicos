@@ -1,0 +1,12 @@
+body{ 
+    background-color: cadetblue;
+}
+ul:first-of-type li a{
+    color: yellow;
+}
+ul:last-of-type li a{
+    color: red;
+}
+a[href="me.htm"]{
+    color: green !important;
+}

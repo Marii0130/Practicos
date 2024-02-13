@@ -1,0 +1,29 @@
+body {
+    background-color: burlywood;
+    margin: 0px;
+}
+
+.tres_img {
+    background-color: olivedrab;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tres_img img {
+    width: 250px;
+    height: 150px;
+}
+
+@media screen and (max-width: 750px) {
+    .tres_img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tres_img img {
+        width: 250px;
+        height: 150px;
+    }
+}
