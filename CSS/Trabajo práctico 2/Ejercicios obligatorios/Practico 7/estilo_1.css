@@ -1,0 +1,18 @@
+table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.negrita {
+    font-weight: bold;
+}
+
+.gris {
+    color: #a0a0a0;
+}
+.mayusculas{
+    font-size: 13px;
+    color: #a0a0a0;
+}
+.iconos{
+    width: 20px;
+    height: 20px;
+}
